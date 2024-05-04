@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(12, 48, 27, 0.95);
+    display: flex;
+    padding: 16px 0;
+    align-items: center;
+    justify-content:space-around;
+    width: 1450px;
+    margin:  0 auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header h1,
+a {
+    color: aliceblue;
+}
+
+header a {
+    margin-right: 50px;
+}
+
+button {
+    background-color: goldenrod;
+    color: aliceblue;
+    border: none;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+button {
+    padding: 16px 0;
+    width: 160px;
+}
